@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+}
+.top-container {
+  text-align: center;
+  background-color: #e4f9f5;
+  height: 97vh;
+  padding: 10px;
+}
+.title-text {
+  font-family: "Sacramento", cursive;
+  font-size: larger;
+}
+.title-image-container {
+  position: absolute;
+}
+.bottom-cloud {
+  position: relative;
+  left: 1000px;
+  animation: float 5s infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  50% {
+    transform: translateX(
+      -100px
+    ); /* End position (to the right of the viewport) */
+  }
+  100% {
+    transform: translateX(0); /* Start position again */
+  }
+}
+.middle-container {
+  text-align: center;
+  padding: 20px 0px;
+}
+.profile h2 {
+  color: #66bfbf;
+}
+.personal-image {
+  width: 200px;
+  border-radius: 50%;
+}
+.skills h2,
+h3 {
+  color: #66bfbf;
+}
+.btn {
+  background-color: #66bfbf;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
+.footer {
+  height: 50px;
+  text-align: center;
+  background-color: #66bfbf;
+}
+.footer p {
+  padding-top: 20px;
+}
